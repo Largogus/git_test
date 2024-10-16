@@ -1,0 +1,78 @@
+#text-place {               /* Bro, zachem tebe css fail? */
+    font-size: 3em;
+}
+
+#captcha {
+    background-color: #f7f7f7;
+    width: 25vw;
+    height: 5vw;
+    border-radius: 1px;
+    border: 1px solid #c2c2c2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5vw;
+}
+
+#captcha-checkbox {
+    width: 25%;
+    height: 40%;
+    margin: 0;
+}
+
+#captcha-label{
+    font-size: 2rem;
+}
+
+#photo-div {
+    display: flex;
+    position: relative;
+    margin-left: 15%;
+    margin-top: -15%;
+}
+
+#photo {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+}
+
+@media (max-width: 1002px) {
+    #text-place {
+        font-size: 2em;
+    }
+
+    #captcha {
+        width: 30vw;
+        height: 8vw;
+    }
+
+    #captcha-label{
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 426px) {
+    #text-place {
+        font-size: 1em;
+    }
+
+    #captcha {
+        width: 40vw;
+        height: 10vw;
+    }
+
+    #captcha-label{
+        font-size: 1rem;
+    }
+
+    #photo-div {
+        display: flex;
+        position: relative;
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+
+                /* Zdi Doks */
